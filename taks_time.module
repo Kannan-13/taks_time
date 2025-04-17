@@ -1,0 +1,23 @@
+<?php
+/**
+ * @file
+ * Contains taks_time.module.
+ */
+
+ 
+/**
+ * Implements hook_theme().
+ */
+function taks_time_theme($existing, $type, $theme, $path) {
+    return [
+        'taks_block' => [
+            'variables' => [
+              'city' => NULL,
+              'country' => NULL,
+              'date' => NULL,
+              'time' => NULL,
+              'day' => NULL,
+            ],
+        ],
+    ];
+}
