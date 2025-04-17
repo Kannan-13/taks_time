@@ -1,0 +1,5 @@
+name: 'Taks Time Block'
+type: module
+description: Custom module to display time based on timezone selected.
+core_version_requirement: ^8.0 || ^9.0 || ^10
+package: Custom

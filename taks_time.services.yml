@@ -1,0 +1,5 @@
+services:
+  taks_time.time_service:
+    class: Drupal\taks_time\Service\TimeService
+    arguments: ['@config.factory']
+    public: true

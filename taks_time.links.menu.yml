@@ -1,0 +1,6 @@
+taks_time.settings:
+  title: 'Timezone Settings'
+  description: 'Set the country, city, and timezone.'
+  route_name: taks_time.settings_form  # Removed the trailing colon
+  parent: system.admin_config_system
+  weight: 10  # Added weight to ensure proper ordering
