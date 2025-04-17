@@ -1,0 +1,10 @@
+dynamic_time:
+  version: 1.x
+  css:
+    component:
+      css/taks_time.css: {}
+  js:
+    js/dynamic_time.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
