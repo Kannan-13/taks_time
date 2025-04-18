@@ -54,3 +54,8 @@ Example output:
 
 5. ⚠️ While placing the block, uncheck the "Display title" option to hide the default title and clear cache.
 
+## Notes
+An attempt was made to implement lazy builders to bypass caching for the dynamic time value within the block. However, due to compatibility issues with the current core version in the project setup, lazy builders couldn't be used effectively.
+
+As an alternative, the time is generated using a service and rendered in a way that ensures it's always up-to-date, even though block caching is enabled.
+
